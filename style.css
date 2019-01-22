@@ -1,5 +1,5 @@
 :root {
-    --main-color: #28c6ca
+    --main-color: #28c6ca;
 }
 
 * {
@@ -67,7 +67,7 @@ margin-bottom: 30px;
     background-color: var(--main-color);
     border: none;
     height: 2px;
-    margin: 3px 0;
+    margin: 3px 0 10px;
 }
 
 .indent {
@@ -88,4 +88,10 @@ margin-bottom: 30px;
 
 li {
     margin-bottom: 20px;
+}
+
+a {
+    color: #71c8c4;
+    text-decoration: none;
+    font: italic bold 15px/1 Palatino, sans-serif ;
 }
