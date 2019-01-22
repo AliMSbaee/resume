@@ -1,0 +1,91 @@
+:root {
+    --main-color: #28c6ca
+}
+
+* {
+    font-family: Arial,Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f1f6fb;
+    color: #555;
+    line-height: 1.35;
+    font-size: 16px;
+}
+
+.container {
+    background: #fefefb;
+    width: 1024px;
+    margin: 30px auto;
+    box-shadow: 0 0 6px rgba(51,51,51,.3);
+}
+
+header {
+    background-color: var(--main-color);
+    padding: 30px 0;
+    text-align: center;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0 0 5px 0;
+}
+
+header h2 {
+    margin: 0 0 5px 0;
+    font-size: 20px;
+    color: #e1f4fc;
+    font-weight: normal;
+}
+
+header p {
+    color: #d8f6fb;
+    line-height: 22px;
+}
+
+.content {
+    padding: 50px;
+}
+
+
+.content .section {
+margin-bottom: 30px;
+}
+
+.content .section p {
+    text-align: justify;
+}
+
+.content .heading {
+    color: #444;
+    font-size: 20px;
+}
+
+.content .section hr {
+    background-color: var(--main-color);
+    border: none;
+    height: 2px;
+    margin: 3px 0;
+}
+
+.indent {
+    padding-left: 20%;
+    margin: 5px 0;
+}
+
+.float-right {
+    float: right;
+    font-weight: bold;
+}
+
+.float-right::after {
+    content: "";
+    display: inline-block;
+    clear: both;
+}
+
+li {
+    margin-bottom: 20px;
+}
