@@ -10,7 +10,7 @@
 
 body {
     background-color: #f1f6fb;
-    color: #555;
+    color: #666;
     line-height: 1.35;
     font-size: 16px;
 }
@@ -94,4 +94,8 @@ a {
     color: #71c8c4;
     text-decoration: none;
     font: italic bold 15px/1 Palatino, sans-serif ;
+}
+
+.personal li {
+    margin-bottom: 0;
 }
