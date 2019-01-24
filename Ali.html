@@ -3,7 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <title>Ali Muhammad</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        :root {
+            --main-color: #28c6ca;
+        }
+
+        * {
+            font-family: Arial,Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #f1f6fb;
+            color: #666;
+            line-height: 1.35;
+            font-size: 16px;
+        }
+
+        .container {
+            background: #fefefb;
+            width: 1024px;
+            margin: 30px auto;
+            box-shadow: 0 0 6px rgba(51,51,51,.3);
+        }
+
+        header {
+            background-color: var(--main-color);
+            padding: 30px 0;
+            text-align: center;
+            color: #fff;
+        }
+
+        header h1 {
+            margin: 0 0 5px 0;
+        }
+
+        header h2 {
+            margin: 0 0 5px 0;
+            font-size: 20px;
+            color: #e1f4fc;
+            font-weight: normal;
+        }
+
+        header p {
+            color: #d8f6fb;
+            line-height: 22px;
+        }
+
+        .content {
+            padding: 50px;
+        }
+
+
+        .content .section {
+            margin-bottom: 30px;
+        }
+
+        .content .section p {
+            text-align: justify;
+        }
+
+        .content .heading {
+            color: #444;
+            font-size: 20px;
+        }
+
+        .content .section hr {
+            background-color: var(--main-color);
+            border: none;
+            height: 2px;
+            margin: 3px 0 10px;
+        }
+
+        .indent {
+            padding-left: 20%;
+            margin: 5px 0;
+        }
+
+        .float-right {
+            float: right;
+            font-weight: bold;
+        }
+
+        .float-right::after {
+            content: "";
+            display: inline-block;
+            clear: both;
+        }
+
+        li {
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        li > p {
+            font-weight: normal;
+        }
+
+        a {
+            color: #0fabab;
+            text-decoration: none;
+            font: italic bold 15px/1 Palatino, sans-serif ;
+        }
+
+        .personal li {
+            margin-bottom: 0;
+            font-weight: normal;
+        }
+    </style>
 </head>
 <body>
 
@@ -31,12 +139,12 @@
                 <ul>
                     <li>
                         <span class="float-right">2013 - 2018</span>
-                        <strong>Bachelor’s Degree in Computer and Control Systems Engineering</strong>
+                        Bachelor’s Degree in Computer and Control Systems Engineering
                         <p>Faculty of Engineering - Mansoura University</p>
                     </li>
                     <li>
                         <span class="float-right">2016</span>
-                        <strong>Front End Development – Online Tech Degree</strong>
+                        Front End Development – Online Tech Degree
                         <p>Freecodecamp Org.</p>
                     </li>
                 </ul>
@@ -49,23 +157,23 @@
             <div class="indent">
                 <ul>
                     <li>
-                        <strong>Client Side Technologies:</strong>
+                        Client Side Technologies:
                         <p>HTML, CSS and JavaScript.</p>
                     </li>
                     <li>
-                        <strong>Front End Frameworks:</strong>
+                        Front End Frameworks:
                         <p>Bootstrap 4 and Materialize.</p>
                     </li>
                     <li>
-                        <strong>JavaScript Frameworks:</strong>
+                        JavaScript Frameworks:
                         <p>jQuery and React(Practicing).</p>
                     </li>
                     <li>
-                        <strong>UX and Prototyping tools:</strong>
+                        UX and Prototyping tools:
                         <p>Free-hand sketching, Axura and Balsamiq.</p>
                     </li>
                     <li>
-                    <strong>Other Technologies:</strong>
+                    Other Technologies:
                         <p>Sass, Git and Photoshop.</p>
                     </li>
                 </ul>
@@ -97,31 +205,31 @@
                 <ul>
                     <li>
                         <span class="float-right">Nov 2016 - Present</span>
-                        <strong>UI Developer & UX Designer</strong>
+                        UI Developer & UX Designer
                         <br>
                         <a href="http://miq.ae/" target="_blank">Almustaqbal Institute For Quality</a>
                     </li>
                     <li>
                         <span class="float-right">Apr 2016 - Present</span>
-                        <strong>Freelancing UI Developer</strong>
+                        Freelancing UI Developer
                         <br>
                         <a href="https://www.upwork.com" target="_blank">Upwork</a>
                     </li>
                     <li>
                         <span class="float-right">Oct 2015 - Mar 2016</span>
-                        <strong>Freelancing Graphic Designer</strong>
+                        Freelancing Graphic Designer
                         <br>
                         <a href="https://www.fiverr.com/" target="_blank">Fiverr</a>
                     </li>
                     <li>
                         <span class="float-right">Jul 2014 - Oct 2014</span>
-                        <strong>Restaurant Manager</strong>
+                        Restaurant Manager
                         <br>
                         <a href="https://www.facebook.com/MR.FitGym" target="_blank">Mr.Fit Gym</a>
                     </li>
                     <li>
                     <span class="float-right">Jul 2014 - Oct 2014</span>
-                        <strong>Website Administration & Content Manager</strong>
+                        Website Administration & Content Manager
                     </li>
                 </ul>
             </div>
@@ -130,7 +238,55 @@
         <div class="portfolio section">
             <h3 class="heading">Portfolio</h3>
             <hr>
-            
+            <div class="indent">
+                <ul>
+                    <li>
+                        <a href="https://alimsbaee.github.io/miq" target="_blank">MIQ</a>
+                        <br>
+                        <p>Proud of developing the UI of this website for Almustaqbal Institute for Quality.</p>
+                    </li>
+                    <li>
+                        <a href="http://khabear.com" target="_blank">Khabear</a>
+                        <p>Khabear is a web application for evaluating organizations performance, and these are some of the interfaces I developed:</p>
+                        <a href="https://alimsbaee.github.io/khabear/" target="_blank">Dashboard</a>
+                        <span> - </span>
+                        <a href="https://alimsbaee.github.io/khabear/admin" target="_blank">Creating standards</a>
+                        <span> - </span>
+                        <a href="https://alimsbaee.github.io/khabear/charts" target="_blank">Charts</a>
+                        <span> - </span>
+                        <a href="https://alimsbaee.github.io/khabear/fill%20report" target="_blank">Form</a>
+                        <span> - </span>
+                        <a href="https://alimsbaee.github.io/khabear/member%20profile" target="_blank">User</a>
+                        <span> - </span>
+                        <a href="https://alimsbaee.github.io/khabear/" target="_blank">Creating standards 2.0</a>
+                        <span> - </span>
+                        <a href="https://alimsbaee.github.io/khabear/members%20index" target="_blank">Users</a>
+                        <span> - </span>
+                        <a href="https://alimsbaee.github.io/khabear/quality%20member%20profile" target="_blank">Member</a>
+                    </li>
+                    <li>
+                        <a href="https://alimsbaee.github.io/tadreeb" target="_blank">Tadreeb</a>
+                        <p>I developed this landing page at the very beginning of my career. it was kind of practicing.</p>
+                    </li>
+                    <li>
+                        <a href="https://alimsbaee.github.io/closer" target="_blank">Closer</a>
+                        <p>This was the first page I had developed ever. I used Pure HTML, CSS and JS.</p>
+                    </li>
+                    <li>
+                        <a href="https://codepen.io/alimsbaee/full/MKNweo" target="_blank">Tic Tac Toe Game</a>
+                        <p>One of the most algorithms I am proud in. In fact, user's chance to beat this algorithm is 0%.</p>
+                    </li>
+                    <li>
+                        Freelance
+                        <p>these interfaces developed using pure HTML, CSS and JS at customer's request without using any frameworks or libraries:</p>
+                        <a href="https://alimsbaee.github.io/freelance/gallery/index.html" target="_blank">Gallery</a>
+                        <span> - </span>
+                        <a href="https://alimsbaee.github.io/freelance/magicboo/index.html" target="_blank">Magicboo</a>
+                        <span> - </span>
+                        <a href="https://alimsbaee.github.io/freelance/pricing/index.html" target="_blank">Pricing</a>
+                    </li>
+                </ul>
+            </div>
         </div>
 
     </section>

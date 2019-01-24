@@ -88,14 +88,20 @@ margin-bottom: 30px;
 
 li {
     margin-bottom: 20px;
+    font-weight: bold;
+}
+
+li > p {
+    font-weight: normal;
 }
 
 a {
-    color: #71c8c4;
+    color: #0fabab;
     text-decoration: none;
     font: italic bold 15px/1 Palatino, sans-serif ;
 }
 
 .personal li {
     margin-bottom: 0;
+    font-weight: normal;
 }
